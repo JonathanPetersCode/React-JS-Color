@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>The Colorizer!</title>
+    <title>Color Generator</title>
     <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
@@ -58,12 +58,12 @@
 </head>
 
 <body>
-    <h1 id="colorHeading">Colorizer</h1>
+    <h1 id="colorHeading">Color Generator</h1>
 
     <div id="container"></div>
     <script type="text/babel">
 
-    class Colorizer extends React.Component {
+    class Colorgen extends React.Component {
       constructor(props, context) {
       super(props, context);
  
@@ -127,7 +127,7 @@
  
     ReactDOM.render(
       <div>
-        <Colorizer />
+        <Colorgen />
       </div>,
       document.querySelector("#container")
     );
